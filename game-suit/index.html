@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Game Suit Jawa V2</h1>
+    
+    <!-- area suit -->
+    <div class="container">
+    
+        <!-- komputer suit -->
+        <div class="comp-score">
+            <h2 id="comp-score">0</h2>
+        </div>
+        <div class="area-komputer" id="area-komputer">
+            <img src="assets/orang.png" alt="orang" id="img-computer">
+        </div>
+
+        <!-- hasil suit -->
+        <div class="info" id="result"></div>
+
+        <!-- user suit -->
+        <div class="area-player" id="area-player"> 
+            <ul>
+                <li><img src="assets/gajah.png" alt="gajah" id="gajah" class="gajah"></li>
+                <li><img src="assets/orang.png" alt="orang" id="orang" class="orang"></li>
+                <li><img src="assets/semut.png" alt="semut" id="semut" class="semut"></li>
+            </ul>
+        </div>
+        <div class="player-score">
+            <h2 id="player-score">0</h2>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
